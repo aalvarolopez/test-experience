@@ -8,6 +8,13 @@ Este es un API simple para la gestión de usuarios. Permite recuperar todos los 
 - `GET /users`: Recupera todos los usuarios.
 - `POST /users`: Inserta un nuevo usuario en la base de datos.
 
+  **Body de la solicitud:**
+  ```json
+  {
+      "name": "nombreEjemplo",
+      "password": "contraseñaEjemplo"
+  }
+
 ## Versiones
 
 - **Java**: 11.0.0.1
